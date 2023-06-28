@@ -3,7 +3,7 @@
 This package contains a DNS provider module for [Caddy](https://github.com/caddyserver/caddy). It can be used to manage DNS records with namecheap accounts. In order to use this module, you must build caddy with [xcaddy](https://github.com/caddyserver/xcaddy).
 
 ```
-xcaddy build --with github.com/caddy-dns/namecheap
+xcaddy build --with github.com/boatrite/caddy-dns-namecheap@fixed-api-installable
 ```
 
 Visit [here](https://www.namecheap.com/support/api/intro/) to get started with the namecheap API. It is recommended to first use the sandbox environment to test your configuration.
